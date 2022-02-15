@@ -13,7 +13,7 @@ namespace Ex31_hint
             Tank tank2 = new Tank("がんタンク", 10000, 125, false);
             tank2.bullet = 5;
 
-            Cow cow = new Cow("牛",5000,50 ,true);
+            Cow cow = new Cow("ケンタロス",5000,50 ,true);
 
             Cat cat = new Cat("ニャース", 400, 40,true);
 
