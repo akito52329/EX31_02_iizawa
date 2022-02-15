@@ -11,7 +11,7 @@ namespace Ex31_hint
         public Cow(string name, float hp, float power, bool animal) : base(name, hp, power, animal) { }
         public override void Attack(Character destination)
         {
-            float recoilDamege = this.power / 2;
+            float recoilDamege = this.power / 2;//反動ダメージ
             if (hp > attackHp)
             {
                 Console.WriteLine($"{this.name}は{destination.name}に角で突くこうげきをした！");

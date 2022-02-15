@@ -4,9 +4,9 @@ using System.Text;
 
 namespace Ex31_hint
 {
-    class Honet: Character
+    class Hornet: Character
     {
-        public Honet(string name, float hp, float power ,bool animal) : base(name, hp, power, animal) { }
+        public Hornet(string name, float hp, float power ,bool animal) : base(name, hp, power, animal) { }
         public override void Attack(Character destination)
         {
             if (destination.animal)
