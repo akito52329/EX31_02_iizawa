@@ -9,12 +9,15 @@ namespace Ex31_hint
         readonly public string name;
         public float hp;
         protected float power;
-        public Character(string name,float hp,float power)
+        public bool animal;
+        public Character(string name,float hp,float power, bool animal)
         {
             this.name = name;
             this.hp = hp;
             this.power = power;
+            this.animal = animal;
         }
+
         public virtual void Attack(Character destination)
         {
             Console.WriteLine($"{this.name}は{destination.name}をぶんなぐった！");
